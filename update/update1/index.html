@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+    <div class="ctn">
+        <input type="text" placeholder="Enter student pin number" id="key">
+        <button onclick="get()">GET</button>
+    </div>
+    <div class="conatiner">
+        <table>
+            <tr>
+                <td class="stname" colspan="3" id="getname">OLD DATA</td>
+            </tr>
+            <tr>
+                <td>YEAR</td>
+                <td>AMOUNT</td>
+                <td>STATUS</td>
+            </tr>
+            <tr>
+                <td>1ST YEAR</td>
+                <td>4700/-</td>
+                <td id="first">
+                </td>
+            </tr>
+            <tr>
+                <td>2ND YEAR</td>
+                <td>4700/-</td>
+                <td id="second">
+                </td>
+            </tr>
+            <tr>
+                <td>3RD YEAR</td>
+                <td>4700/-</td>
+                <td id="third">
+                </td>
+            </tr>
+        </table>
+        <form action="dat.php">
+            <table>
+                <tr>
+                    <td class="stname" colspan="3">NEW DATA</td>
+                </tr>
+                <tr>
+                    <td>YEAR</td>
+                    <td>AMOUNT</td>
+                    <td>STATUS</td>
+                </tr>
+                <tr>
+                    <td>1ST YEAR</td>
+                    <td>4700/-</td>
+                    <td>
+                        <input type="text" id="firstin" name="first">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2ND YEAR</td>
+                    <td>4700/-</td>
+                    <td>
+                        <input type="text" name="second" id="secondin" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>3RD YEAR</td>
+                    <td>4700/-</td>
+                    <td>
+                        <input type="text" id="thirdin" name="third">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">UPDATE</button>
+            <p name="need" id="need"></p>
+        </form>
+        
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

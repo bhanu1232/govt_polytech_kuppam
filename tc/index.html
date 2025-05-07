@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="formcer"  id="main">
+
+
+
+        <div class="bts">
+            <div class="bt" id="bt1">
+                <div class="beta">
+                    <p>1.Enter the student pin number ex: cm003</p>
+                    <p>2.Enter the Class in the pupil was studying at the time of leaving</p>
+                    <p>3.Enter the Date of pupil left the institutaion</p>
+                    <p>4.Enter is pupil paid all the dues</p>
+                </div>
+                <div class="le">
+                    <p class="label">20101-</p>
+                    <input type="text" placeholder="Pin number " id="pinnum1">
+
+                </div>
+                <!-- <div class="le">
+                    <input type="text" placeholder="Class in the pupil was studying at the time of leaving " id="leave">
+
+                </div> -->
+                <div class="le">
+                    <input type="text" placeholder="Date of pupil left the institutaion" id="doi">
+                    <input type="text" name=""  placeholder="is pupil paid all the dues" id="fee">
+                </div>
+
+
+                <button class="next" onclick="tgenerate()">Generate</button>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="temp" id="temp" style="display: none;">
+
+        <div class="t1">
+            <h1>Dr. Y. C. JAMES GOVT. POLYTECHNIC
+                <br><H3>KUPPAM - 517425 , CHITTOOR DIST</H3>
+                <h2><b><u>TRANSFER CERTIFICATE</u></b></h2>
+            </h1>
+        </div>
+
+        <div class="t2">
+            <h3><b><u id="addnum">Admn No ,</u></b></h3>
+            <h3 id="tccnum">T.C No:
+                <br>Date:
+            </h3>
+        </div>
+
+        <div class="t3">
+
+            <div class="list">
+                <h3>1 Name of the institution which the pupil is learnig</h3>: <h3 class="lm">Dr. Y. C. JAMES GOVT. POLYTECHNIC,KUPPAM - 517425 , CHITTOOR DIST,A.P.</h3>
+            </div>
+
+            <div class="list">
+                <h3>Name of the Pupil</h3>: <h3 class="lm" id="getname"></h3>
+            </div>
+
+            <div class="list">
+                <h3>Name of the Father / Guardian</h3>: <h3 class="lm" id="getf"></h3>
+            </div>
+
+            
+            <div class="list">
+                <h3>PIN NO</h3>: <h3 class="lm" id="getp"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Nationality & Religion</h3>: <h3 class="lm" id="getr"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Caste</h3>: <h3 class="lm" id="getc"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Date Of Birth</h3>: <h3 class="lm" id="getd"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Class in the pupil was studying at the time of leaving</h3>: <h3 class="lm" id="getl"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Date of Admission into the Class</h3>: <h3 class="lm" id="geta"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Date on Which the Pupil actually left the institution</h3>: <h3 class="lm" id="geti"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Whether qualified for promotion/ transfer</h3>: <h3 class="lm" id="getq"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Conduct & Charecter</h3>: <h3 class="lm" id="gets"></h3>
+            </div>
+            
+            <div class="list">
+                <h3>Whether the pupil has paid all the fees due to the institution</h3>: <h3 class="lm" id="getw"></h3>
+            </div>
+
+            <div class="list">
+                <h3>Date on which the application for T.C was made</h3>: <h3 class="lm" id="getda"></h3>
+            </div>
+            <div class="t4">
+                <h3 class="cs">PRINCIPAL</h3>
+            </div>
+    
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

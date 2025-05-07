@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container{
+    height: 95%;
+    width: 90%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.3rem;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 1.2rem;
+}
+.t1{
+    margin-top: 5%;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info{
+    height: 100px;
+    width: auto;
+    margin-left: 5%;
+}
+
+img{
+    height: 150px;
+    width: 130px;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.t2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+table{
+    height: 90%;
+    /* background: green; */
+    width: 95%;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+}
+.t3{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: end;
+}
+
+.t3 p{
+    margin: 4rem;
+}
+
+.da{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+/* .da p{
+    margin-left: 30%;
+} */
+
+.line{
+    height: 1px;
+    width: 80%;
+    background: black;
+}
